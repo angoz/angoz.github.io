@@ -1,0 +1,21 @@
+auto: true
+
+#markdown: rdiscount
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+pygments: true
+paginate: 8
+permalink: /:categories/:title.html
+timezone: Asia/Shanghai
+
+title: Ango's Pages
+url: http://angos.github.io
+baseurl:
+feed: /rss.xml
+
+author_info: <a href="http://angos.github.io/">Ango's Pages</a>
+description: Write the Code. Change the World.
+webjs: /assets/scripts
+webcss: /assets/styles
+webimg: /assets/images
