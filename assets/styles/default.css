@@ -146,18 +146,23 @@ p {
 }
 
 pre {
-    border: 1px solid #ccc;
-    border-radius: 2px;
-    background-color: #f8f8f8;
-    color: #b9bdb6;
-    font-size: 12px;
-    letter-spacing: 0.015em;
-    line-height: 120%;
-    padding: 0.5em;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	background-color: #f8f8f8;
+	color: #b9bdb6;
+	font-size: 12px;
+	letter-spacing: 0.015em;
+	line-height: 120%;
+	margin-bottom: 15px;
+	padding: 0.5em;
 }
 
 code {
 	font-family: 'Consolas', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace !important;
+}
+
+p + pre {
+	margin-top: -12px;
 }
 
 /*========================================
