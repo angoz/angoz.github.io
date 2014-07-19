@@ -6,7 +6,6 @@ categories:
  - developer
 tags:
  - server
- - shell
 description: 关于 Linux grep 命令的常用模式
 ---
 
