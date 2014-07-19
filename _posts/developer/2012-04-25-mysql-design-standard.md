@@ -6,6 +6,7 @@ categories:
  - developer
 tags:
  - database
+ - mysql
 description: 该份文档比较适合数据设计新手，对于合适的设计是很有帮助的；当然其中一些要求是有点过于严苛，可以根据要求灵活调整。
 ---
 
