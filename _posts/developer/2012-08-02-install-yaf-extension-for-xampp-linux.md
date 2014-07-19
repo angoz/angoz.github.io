@@ -12,7 +12,7 @@ description: Install Yaf for XAMPP-LINUX
 ### 0. Env
 CentOS Linux release 6.0 (Final)
 
-### 1.Rready
+###  1.Rready
 \# cd ~
 \# curl -O http://tenet.dl.sourceforge.net/project/xampp/BETAS/xampp-linux-1.8.0.tar.gz
 \# curl -O http://tenet.dl.sourceforge.net/project/xampp/BETAS/xampp-linux-devel-1.8.0.tar.gz
@@ -53,8 +53,10 @@ save and quit php.ini:
 \# cd /opt/lampp/htdocs
 \# vim phpinfo.php
 
+{% highlight php linenos %}
 <?php
 phpinfo();
 ?>
+{% endhighlight %}
 
 open your browser, and visit the site phpinfo.php, and check yaf is success for installing.
