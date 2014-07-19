@@ -161,8 +161,12 @@ code {
 	font-family: 'Consolas', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace !important;
 }
 
-p + pre {
+p + pre,p + .highlight {
 	margin-top: -12px;
+}
+
+hr + p {
+	margin-top: 15px;
 }
 
 /*========================================
