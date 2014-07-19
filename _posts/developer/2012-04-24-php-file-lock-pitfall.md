@@ -56,7 +56,8 @@ if ($fd = @fopen("./foobar.txt", "r+")) {
 ?>
 {% endhighlight %}
 
-形如测试程序（两种情况）：
+开始测试程序（两种情况）：
+
 1. 运行 1.php，然后马上去运行 2.php，2.php 的输出结果是空；
 2. 运行 1.php，然后马上去运行 3.php，3.php 将在 1.php 运行结束后才能结束；不过结果文件内容是: "hello world!" 而不是 "angoz.github.io"。
 

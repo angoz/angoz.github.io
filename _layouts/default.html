@@ -12,21 +12,17 @@
 
 	<link rel="index" title="{{ site.title }}" href="{{ site.url }}" />
 	{% if page.previous %}
-    <link rel="prev" href="{{ site.url }}{{ page.previous.url }}" title="{{ page.previous.title }}" />
-    <link href="{{ site.url }}{{ page.previous.url }}" rel="prerender" />
-    {% endif %}
-    {% if page.next %}
-    <link rel="next" href="{{ site.url }}{{ page.next.url }}" title="{{ page.next.title }}" />
-    <link href="{{ site.url }}{{ page.next.url }}" rel="prerender" />
-    {% endif %}
+	<link rel="prev" href="{{ site.url }}{{ page.previous.url }}" title="{{ page.previous.title }}" />
+	<link href="{{ site.url }}{{ page.previous.url }}" rel="prerender" />
+	{% endif %}
+	{% if page.next %}
+	<link rel="next" href="{{ site.url }}{{ page.next.url }}" title="{{ page.next.title }}" />
+	<link href="{{ site.url }}{{ page.next.url }}" rel="prerender" />
+	{% endif %}
 
 	<link rel="stylesheet" href="{% if site.url %}{{ site.url }}{% endif %}/assets/styles/default.css">
 	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
-	<link rel="stylesheet" href="{% if site.url %}{{ site.url }}{% endif %}/assets/styles/highlight.css">
-<!--
-<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/styles/default.min.css">
-<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/highlight.min.js"></script>
--->
+	<link rel="stylesheet" href="{% if site.url %}{{ site.url }}{% endif %}/assets/styles/pygments.css">
 </head>
 <body>
 	<div class="conainer">
