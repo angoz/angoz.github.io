@@ -11,9 +11,11 @@ tags:
 description: 简单易用的服务端 Memcache 启动脚本
 ---
 
+
 相关的 shell 代码如下，其中相应的 memcache 路径请自行替换。
 
 {% highlight shell linenos %}
+
 #!/bin/sh   
 #   
 # memcached:    MemCached Daemon   
@@ -62,6 +64,7 @@ case "$1" in
         exit 1
 esac
 exit 0
+
 {% endhighlight %}
 
 P.S.
