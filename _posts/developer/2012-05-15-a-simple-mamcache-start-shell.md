@@ -15,18 +15,6 @@ description: 简单易用的服务端 Memcache 启动脚本
 相关的 shell 代码如下，其中相应的 memcache 路径请自行替换。
 
 {% highlight shell linenos %}
-
-#!/bin/sh   
-#   
-# memcached:    MemCached Daemon   
-#   
-# chkconfig:    - 90 25    
-# description:  MemCached Daemon   
-#   
-# Source function library.   
-. /etc/rc.d/init.d/functions
-. /etc/sysconfig/network
-    
 start()
 {
         echo -n $"Starting memcached: "
@@ -43,7 +31,6 @@ stop()
     
 [ -f /usr/local/bin/memcached ] || exit 0
 
-# See how we were called.
 case "$1" in
   start)
         start
