@@ -199,7 +199,7 @@ img#logo_img_loader {
 }
 
 a#home_logo {
-	background: url(img/cargo_logo.svg) no-repeat 0 0 transparent;
+	background: url(img/logo.png) no-repeat 40px 24px; transparent;
 	display: block;
 	height: 100px;
 	position: absolute;
