@@ -15,7 +15,8 @@ baseurl:
 feed: /atom.xml
 
 author_info: <a href="http://angoz.github.io/">Ango's Pages</a>
-description: Write the Code. Change the World.
+#description: Write the Code. Change the World.
+description: Our Vision, Our Future.
 webjs: /assets/scripts
 webcss: /assets/styles
 webimg: /assets/images
