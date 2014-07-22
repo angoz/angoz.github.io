@@ -4,7 +4,7 @@ layout: default
 
 <div class="nav_path">
 	<!--<a href="#" rel="1">Index</a><a href="#" rel="2">Developer</a><a href="#" rel="3">PHP</a>-->
-	<a href="#" rel="1">Index</a><a href="#" rel="2">{{ page.categories }}</a><a href="#" rel="3">{{ page.tags }}</a>
+	<a href="/" rel="nofollow">Index</a><a href="/category/{{ page.categories | first }}" rel="2">{{ page.categories | first }}</a><a href="/tags/{{ page.tags | first }}" rel="3">{{ page.tags | first }}</a>
 </div>
 <section>
 	<header>
