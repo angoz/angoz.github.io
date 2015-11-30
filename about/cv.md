@@ -7,7 +7,7 @@ title: 个人简历
 # 个人信息
 
  - 李钢宗/男/1988年11月生 
- - 联系电话：[password]135 3070 1115
+ - 联系电话：135 * * * * 1115
  - 个人主页：[http://angoz.github.io](http://angoz.github.io "ANGOZ")
  - E-mail：<ligangzong@163.com>
  - 工作年限：4年PHP高级工程师
